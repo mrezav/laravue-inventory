@@ -11,6 +11,7 @@ const Sales = require('./../pages/Sales.vue').default
 // const Notfound = require('./../pages/Notfound.vue').default
 import User from './../pages/User.vue'
 import Notfound from './../pages/Notfound.vue'
+import Transaction from './../pages/Transaction.vue'
 
 const routes = [
     {
@@ -32,6 +33,11 @@ const routes = [
         name: 'sale',
         path : '/sale',
         component: Sales
+    },
+    {
+        name: 'transaction',
+        path : '/transaction',
+        component: Transaction
     },
     {
         name: 'user',
